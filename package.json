@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:heroku": "node dist/angular-starter/server",
+    "start:heroku": "node dist/angular-starter/server/main.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
