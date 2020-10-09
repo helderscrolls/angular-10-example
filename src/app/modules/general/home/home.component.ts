@@ -95,10 +95,10 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle('angular.example: Une Application Web avec Angular 10');
+    this.titleService.setTitle('AngularLand: Une Application Web avec Angular 10');
     this.meta.addTag({
-      name: 'angular.example',
-      content: 'helderscrolls'
+      name: 'AngularLand',
+      content: 'HelderScrolls'
     });
     this.meta.updateTag(
       {
