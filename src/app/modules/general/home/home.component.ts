@@ -1,4 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit
+} from '@angular/core';
+
+import {
+  Meta,
+  Title,
+} from '@angular/platform-browser';
+
 import { environment } from '../../../../environments/environment';
 
 @Component({
@@ -15,7 +24,10 @@ export class HomeComponent implements OnInit {
 
   features: any;
 
-  constructor() {
+  constructor(
+    private meta: Meta,
+    private titleService: Title,
+  ) {
     this.features =
       [
         {
@@ -83,6 +95,17 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.titleService.setTitle('angular.example: Une Application Web avec Angular 10');
+    this.meta.addTag({
+      name: 'angular.example',
+      content: 'helderscrolls'
+    });
+    this.meta.updateTag(
+      {
+        name: 'description',
+        content: 'Cette application a été développée avec Angular version 10.1.1 et bootstrap 5.0.0-alpha1' +
+          ' Elle applique le Routing, le Lazy loading, le Server side rendering et les Progressive Web App (PWA)'
+      });
   }
 
 }

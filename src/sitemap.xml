@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://angular-10-example.herokuapp.com/</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/about</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/contact</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/signin</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/components</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/services</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/httpclient</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/directives</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/pipes</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/observables</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/modal</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/reactiveform</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/template-driven-forms</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/chartjs</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/contact/mailing</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://angular-10-example.herokuapp.com/contact/map</loc>
+  <lastmod>2020-10-09T23:06:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
