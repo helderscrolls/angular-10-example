@@ -10,9 +10,6 @@ import { existsSync } from 'fs';
 
 import * as compression from 'compression';
 import * as enforce from 'express-sslify';
-import * as path from 'path';
-
-import { environment } from './src/environments/environment';
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
@@ -23,9 +20,7 @@ export function app(): express.Express {
   // Gzip
   server.use(compression());
 
-  if (environment.production) {
-    server.use(enforce.HTTPS({ trustProtoHeader: true }));
-  }
+  server.use(enforce.HTTPS({ trustProtoHeader: true }));
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
   server.engine('html', ngExpressEngine({
