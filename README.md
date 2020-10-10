@@ -8,7 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Development server:SSR
 
-Run `npm run serve:ssr` for a SSR dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.  ⚠️You'll have to comment the following code on the server.ts file `server.use(enforce.HTTPS({ trustProtoHeader: true }));`⚠️
+Run `npm run serve:ssr` for a SSR dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.  
+<br/>
+⚠️You'll have to comment the following code `server.use(enforce.HTTPS({ trustProtoHeader: true }));` on the `server.ts` file ⚠️
 
 ## Build
 
