@@ -1,6 +1,7 @@
 # AngularLand
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This application was developed with Angular version 10.1.1 and Bootstrap 5.0.0-alpha1.
+It applies Angular Routing, Lazy loading, Server side rendering and Progressive Web App (PWA).
 
 ## Development server
 
